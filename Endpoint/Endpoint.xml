@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Endpoint</name>
+    </assembly>
+    <members>
+        <member name="M:Endpoint.Controllers.CommentsController.Post(Entities.DTOs.CreateComment)">
+            <summary>
+            افزودن کامنت برای محصول با آیدی
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PicUploaderController.Get">
+            <summary>
+            دریافت مشخصات تمامی عکس ها
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PicUploaderController.Get(System.Int32)">
+            <summary>
+            دریافت مشخصات عکس توسط آیدی
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PicUploaderController.Post(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            افزودن عکس در فولدر Uploads + ذخیره نام فایل در دیتابیس
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PicUploaderController.Put(System.Int32,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            ادیت عکس در فولدر اپلودز
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PicUploaderController.Delete(System.Int32)">
+            <summary>
+            حذف عکس از فولدر آپلودز و دیتابیس
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PossibleExtraFeaturesController.Get">
+            <summary>
+            دریافت تمامی موارد ممکن برای افزودن مورد اضافه در محصولات
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PossibleExtraFeaturesController.Get(System.Int32)">
+            <summary>
+            دریافت مورد ممکن با آیدی برای افزودن مورد اضافه در محصولات
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PossibleExtraFeaturesController.Post(Entities.DTOs.CreateFeature)">
+            <summary>
+            افزودن مورد ممکن برای افزودن مورد اضافه در محصولات
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PossibleExtraFeaturesController.Put(System.Int32,Entities.DTOs.EditFeature)">
+            <summary>
+            ویرایش مورد ممکن برای افزودن مورد اضافه در محصولات
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.PossibleExtraFeaturesController.Delete(System.Int32)">
+            <summary>
+            حذف مورد ممکن برای افزودن مورد اضافه در محصولات
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.ProductCrudController.Get">
+            <summary>
+            برای گرفتن تمامی محصولات همراه با لیست کامنت ها و موارد متفاوت و ویژه
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.ProductCrudController.Get(System.Int32)">
+            <summary>
+            برای گرفتن محصول توسط آیدی همراه با لیست کامنت ها و موارد متفاوت و ویژه
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.ProductCrudController.Post(Entities.DTOs.CreateProductDTO)">
+            <summary>
+            برای اد کردن محصول ،جهت دریافت آیدی عکس و موارد اضافه و به قسمت دریافت تمامی موارد در کنترلر های دیگر مراجعه کنید
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.ProductCrudController.Put(System.Int32,Entities.DTOs.CreateProductDTO)">
+            <summary>
+            برای ادیت کردن محصول ،جهت دریافت آیدی عکس و موارد اضافه و به قسمت دریافت تمامی موارد در کنترلر های دیگر مراجعه کنید
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.ProductCrudController.Put(System.Int32,Entities.DTOs.UpdateExtrasList)">
+            <summary>
+            برای اد کردن موارد اضافه به یک محصول توسط آیدی
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.ProductCrudController.Delete(System.Int32)">
+            <summary>
+            برای حذف کردن محصول از دیتابیس
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.SpecialsController.Get">
+            <summary>
+            دریافت لیست تمام موارد ویژه
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.SpecialsController.Get(System.Int32)">
+            <summary>
+            دریافت مورد ویژه با آیدی
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.SpecialsController.Post(Entities.DTOs.CreateSpecial)">
+            <summary>
+            افزودن مورد ویژه
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.SpecialsController.Put(System.Int32,Entities.DTOs.EditSpecial)">
+            <summary>
+            ادیت مورد ویژه
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="M:Endpoint.Controllers.SpecialsController.Delete(System.Int32)">
+            <summary>
+            حذف مورد ویژه
+            </summary>
+            <returns></returns>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
